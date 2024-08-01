@@ -48,8 +48,8 @@ const TogglePartTwo = () => {
                         <div>About Us</div>
                         <div>4 articles in this Topic</div>
                     </div>
-                </div>
                 <span>{isAboutUsOpen ? '▲' : '▼'}</span>
+                </div>
             </div>
             {isAboutUsOpen && (
                 <div className="questions-container">
